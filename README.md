@@ -1,1 +1,1 @@
-# frontend-study
+### Repository for studying frontend
