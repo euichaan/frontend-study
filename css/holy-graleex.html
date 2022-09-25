@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #container {
+      display: flex;
+    }
+
+    header {
+      border-bottom: 1px solid gray;
+    }
+
+    footer {
+      border-top: 1px solid gray;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .content {
+      display: flex;
+    }
+
+    .container nav {
+      border-right: 1px solid gray;
+    }
+
+    .container aside {
+      border-left: 1px solid gray;
+    }
+    nav,aside {
+      flex-basis: 150px;
+      flex-shrink: 0;
+    }
+    main {
+      padding: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>홀리 그레일 레이아웃</h1>
+    </header>
+    <section class="content">
+      <nav>
+        <ul>
+          <li>html</li>
+          <li>css</li>
+          <li>javascript</li>
+        </ul>
+      </nav>
+      <main>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad molestiae delectus, placeat facere eaque enim odit!
+        Alias soluta id deleniti officiis nostrum, numquam tempore iste corrupti! Blanditiis, dolores! Nisi,
+        consectetur.
+      </main>
+      <aside>
+        AD
+      </aside>
+    </section>
+
+    <footer>
+      <a href="http://opentutorials.org/course/1">홈페이지</a>
+    </footer>
+
+  </div>
+</body>
+
+</html>
